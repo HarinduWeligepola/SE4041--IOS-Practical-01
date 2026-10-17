@@ -18,8 +18,8 @@
 This practical covers the Swift fundamentals needed before any iOS
 development: constants and variables, Swift data types, type inference,
 type conversion, operators, strings, string interpolation and optionals.
-Each exercise was completed on its own page of the Xcode playground in
-this repository.
+Each exercise was completed on its own page of the Xcode playground and
+saved as its own `.swift` file.
 
 ## Repository Structure
 
@@ -27,16 +27,16 @@ this repository.
 SE4041-Practical-01/
 ├── README.md
 ├── .gitignore
+├── Exercise01.swift
+├── Exercise02.swift
+├── Exercise03.swift
+├── Exercise04.swift
+├── Exercise05.swift
+├── Exercise06.swift
+├── FinalChallenge.swift
 ├── SE4041-Practical-01.playground/
 │   ├── contents.xcplayground
-│   └── Pages/
-│       ├── Exercise 01.xcplaygroundpage/
-│       ├── Exercise 02.xcplaygroundpage/
-│       ├── Exercise 03.xcplaygroundpage/
-│       ├── Exercise 04.xcplaygroundpage/
-│       ├── Exercise 05.xcplaygroundpage/
-│       ├── Exercise 06.xcplaygroundpage/
-│       └── Final Challenge.xcplaygroundpage/
+│   └── Pages/                     one page per exercise
 └── screenshots/
 ```
 
@@ -46,20 +46,23 @@ Double-click `SE4041-Practical-01.playground` to open the whole
 practical in Xcode. It contains one page per exercise, listed in the
 navigator on the left, and each page runs on its own.
 
+The same code is also saved as the individual `.swift` files listed in
+the submission requirements, at the root of this repository.
 
-## What Each Page Contains
 
-| Page | Topic |
+## What Each File Contains
+
+| File | Topic |
 |---|---|
-| Exercise 01 | Constants and variables, `let` vs `var`, Activity 1 |
-| Exercise 02 | Data types, type inference, type annotations, Activity 2 |
-| Exercise 03 | Type conversion, arithmetic operators, remainder operator |
-| Exercise 04 | Comparison and logical operators, Activity 3 |
-| Exercise 05 | Strings, string interpolation, Activity 4 |
-| Exercise 06 | Optionals, force unwrapping, `if let`, `??`, Activity 5, knowledge check answers |
-| Final Challenge | Student Result Analyzer with the additional challenge |
+| `Exercise01.swift` | Constants and variables, `let` vs `var`, Activity 1 |
+| `Exercise02.swift` | Data types, type inference, type annotations, Activity 2 |
+| `Exercise03.swift` | Type conversion, arithmetic operators, remainder operator |
+| `Exercise04.swift` | Comparison and logical operators, Activity 3 |
+| `Exercise05.swift` | Strings, string interpolation, Activity 4 |
+| `Exercise06.swift` | Optionals, force unwrapping, `if let`, `??`, Activity 5, knowledge check answers |
+| `FinalChallenge.swift` | Student Result Analyzer with the additional challenge |
 
-Each page is independent and runs on its own. The
+Each file is independent and runs on its own playground page. The
 deliberate error examples from the lab sheet are kept as comments, so
 every file compiles as it stands.
 
@@ -80,7 +83,7 @@ twice:
   `Email : Not Provided`.
 
 To switch between the two tests, comment one `email` declaration at the
-top of the Final Challenge page and uncomment the other.
+top of `FinalChallenge.swift` and uncomment the other.
 
 The additional challenge adds an optional phone number displayed with
 the nil-coalescing operator, and an eligibility check that requires a
