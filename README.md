@@ -18,15 +18,14 @@
 This practical covers the Swift fundamentals needed before any iOS
 development: constants and variables, Swift data types, type inference,
 type conversion, operators, strings, string interpolation and optionals.
-Each exercise was completed on its own page of the Xcode playground and
-saved as its own `.swift` file.
+Each exercise was completed in an Xcode Playground and then saved as its
+own `.swift` file.
 
 ## Repository Structure
 
 ```
 SE4041-Practical-01/
 ├── README.md
-├── .gitignore
 ├── Exercise01.swift
 ├── Exercise02.swift
 ├── Exercise03.swift
@@ -34,21 +33,8 @@ SE4041-Practical-01/
 ├── Exercise05.swift
 ├── Exercise06.swift
 ├── FinalChallenge.swift
-├── SE4041-Practical-01.playground/
-│   ├── contents.xcplayground
-│   └── Pages/                     one page per exercise
 └── screenshots/
 ```
-
-## Opening This in Xcode
-
-Double-click `SE4041-Practical-01.playground` to open the whole
-practical in Xcode. It contains one page per exercise, listed in the
-navigator on the left, and each page runs on its own.
-
-The same code is also saved as the individual `.swift` files listed in
-the submission requirements, at the root of this repository.
-
 
 ## What Each File Contains
 
@@ -62,7 +48,7 @@ the submission requirements, at the root of this repository.
 | `Exercise06.swift` | Optionals, force unwrapping, `if let`, `??`, Activity 5, knowledge check answers |
 | `FinalChallenge.swift` | Student Result Analyzer with the additional challenge |
 
-Each file is independent and runs on its own playground page. The
+Each file is independent and runs on its own Playground page. The
 deliberate error examples from the lab sheet are kept as comments, so
 every file compiles as it stands.
 
